@@ -4,12 +4,12 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 
 function RoutesTree() {
-    return(
+    return (
         <div>
             <Routes>
-                <Route path = "/" element = {<Home />} />
-                <Route path = "about" element = {<About />} />
-                <Route path = "contact" element = {<Contact />} />
+                <Route path = "/" element = {<Home/>} />
+                <Route path = "about" element = {<About/>} />
+                <Route path = "contact" element = {<Contact/>} />
             </Routes>
         </div>
     );
